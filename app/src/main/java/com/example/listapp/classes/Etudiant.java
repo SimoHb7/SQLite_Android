@@ -4,6 +4,8 @@ package com.example.listapp.classes;
 import java.util.Date;
 
 public class Etudiant {
+
+    
     private int id;
     private String nom;
     private String prenom;
