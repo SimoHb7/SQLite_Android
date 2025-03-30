@@ -15,10 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TP5SQLite"
         tools:targetApi="31">
-        <activity
+        
+    </application>
+    <activity
             android:name=".MainActivity"
             android:exported="false" />
-    </application>
         <activity
             android:name=".SplashActivity"
             android:exported="true">
