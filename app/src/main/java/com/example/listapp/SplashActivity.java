@@ -27,7 +27,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(3000);
-                    Intent intent = new Intent(SplashActivity.this, ListPizzaActivity.class);
+                    Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                     startActivity(intent);
                     SplashActivity.this.finish();
                 } catch (InterruptedException e) {
